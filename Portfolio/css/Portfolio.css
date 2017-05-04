@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+*{
+  box-sizing: border-box;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:767px) {
+  input{
+    width: 100%;
+  }
+}
+@media(min-width:768px) {
+    .navbar {
+        padding: 20px 0px;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+}
+
+.intro-section {
+    padding: 0;
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.navbar{
+  width: 100%;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #2ecc71; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #2ecc71 , #16a085); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #2ecc71, #16a085); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #2ecc71, #16a085); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #2ecc71 , #16a085); /* Standard syntax */
+
+}
+
+.project-section {
+    min-height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    min-height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #eee;
+}
+
+.bg-faded{
+  background-color: #292b2c;
+}
+.name{
+  background-color: #292b2c;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.navbar-brand{
+  color: white;
+}
+.img-background{
+  text-align: center;
+  background: url(../img/Code.jpg)no-repeat center bottom;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.intro-txt{
+  font-size: 30px;
+  font-family: 'Rubik Mono One', sans-serif;
+  text-shadow: 1px 2px rgba(178, 185, 188, 0.3);
+  color: #fff;
+}
+.light-txt{
+  font-size: 30px;
+  text-shadow: 1px 2px rgba(178, 185, 188, 0.3);
+  color: #fff;
+}
+.dark-txt{
+  font-size: 30px;
+  text-shadow: 1px 2px rgba(178, 185, 188, 0.3);
+  color: #000;
+}
+h1{
+  margin: 0;
+}
+img{
+  float: left;
+  padding: 5px;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+}
+form{
+  padding-bottom: 5px;
+}
+form input{
+  display: block;
+  border: 2px solid #bdc3c7;
+  border-radius: 10px;
+  width: 100%;
+  padding: 5px 15px;
+  margin: 0 auto 5px;
+}
+textarea{
+  display: block;
+  border: 2px solid #bdc3c7;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px 15px;
+  margin: 0 auto 5px;
+}
+p{
+  margin-bottom: 10px;
+}
+.row{
+  display: inline-block;
+}
+.col-md-4{
+  width: 100%;
+  padding: 0;
+}
+footer{
+  background-color: #fff;
+  text-align: center;
+  height: 20%;
+  width: 100%
+}
+footer p{
+  margin: 0;
+}
+.fa{
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 40px;
+}
+.human{
+  padding: 10px 15px;
+}
